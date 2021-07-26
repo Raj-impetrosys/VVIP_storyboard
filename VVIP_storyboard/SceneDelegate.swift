@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import StreamChat
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

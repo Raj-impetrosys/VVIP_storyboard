@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040442F126A7FE2500961F34 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040442F026A7FE2500961F34 /* Extensions.swift */; };
+		040442F926A8007800961F34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040442F826A8007800961F34 /* Constants.swift */; };
+		040442FE26A84A5500961F34 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040442FD26A84A5500961F34 /* AlertController.swift */; };
 		0432B69326A29DCE001A6D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B69226A29DCE001A6D7F /* AppDelegate.swift */; };
 		0432B69526A29DCE001A6D7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B69426A29DCE001A6D7F /* SceneDelegate.swift */; };
 		0432B69726A29DCE001A6D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B69626A29DCE001A6D7F /* ViewController.swift */; };
@@ -15,6 +18,16 @@
 		0432B69F26A29DD0001A6D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432B69D26A29DD0001A6D7F /* LaunchScreen.storyboard */; };
 		0432B6AA26A29DD1001A6D7F /* VVIP_storyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B6A926A29DD1001A6D7F /* VVIP_storyboardTests.swift */; };
 		0432B6B526A29DD1001A6D7F /* VVIP_storyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432B6B426A29DD1001A6D7F /* VVIP_storyboardUITests.swift */; };
+		044CD5C126A98486009E72F1 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CD5C026A98486009E72F1 /* PlayerDetailViewController.swift */; };
+		0454705226A69DD500366730 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 0454705126A69DD500366730 /* SideMenu */; };
+		0454705D26A6B4CF00366730 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454705C26A6B4CF00366730 /* TableViewController.swift */; };
+		0454706A26A6FCEE00366730 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454706926A6FCEE00366730 /* AddUserViewController.swift */; };
+		0463519E26AAD46F009B1B5D /* SettingDialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463519D26AAD46F009B1B5D /* SettingDialViewController.swift */; };
+		0467E45C26A552A300623523 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467E45B26A552A300623523 /* DrawerViewController.swift */; };
+		0481F08026AEB6B8008053F2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0481F07F26AEB6B8008053F2 /* ChatViewController.swift */; };
+		0483F89326A3014F00C7BF9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483F89226A3014F00C7BF9A /* HomeViewController.swift */; };
+		048600B526AEE1C100F8DEBA /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 048600B426AEE1C100F8DEBA /* StreamChat */; };
+		048600B726AEE1C100F8DEBA /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 048600B626AEE1C100F8DEBA /* StreamChatUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040442F026A7FE2500961F34 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		040442F826A8007800961F34 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		040442FD26A84A5500961F34 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		0432B68F26A29DCE001A6D7F /* VVIP_storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVIP_storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432B69226A29DCE001A6D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0432B69426A29DCE001A6D7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,13 @@
 		0432B6B026A29DD1001A6D7F /* VVIP_storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVIP_storyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432B6B426A29DD1001A6D7F /* VVIP_storyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VVIP_storyboardUITests.swift; sourceTree = "<group>"; };
 		0432B6B626A29DD1001A6D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CD5C026A98486009E72F1 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
+		0454705C26A6B4CF00366730 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0454706926A6FCEE00366730 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		0463519D26AAD46F009B1B5D /* SettingDialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDialViewController.swift; sourceTree = "<group>"; };
+		0467E45B26A552A300623523 /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		0481F07F26AEB6B8008053F2 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		0483F89226A3014F00C7BF9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048600B726AEE1C100F8DEBA /* StreamChatUI in Frameworks */,
+				048600B526AEE1C100F8DEBA /* StreamChat in Frameworks */,
+				0454705226A69DD500366730 /* SideMenu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +102,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040442EF26A7FDE300961F34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				040442F026A7FE2500961F34 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0432B68626A29DCE001A6D7F = {
 			isa = PBXGroup;
 			children = (
+				0481F07F26AEB6B8008053F2 /* ChatViewController.swift */,
+				0463519D26AAD46F009B1B5D /* SettingDialViewController.swift */,
+				044CD5C026A98486009E72F1 /* PlayerDetailViewController.swift */,
+				040442FD26A84A5500961F34 /* AlertController.swift */,
+				0454706926A6FCEE00366730 /* AddUserViewController.swift */,
+				0454705C26A6B4CF00366730 /* TableViewController.swift */,
+				0467E45B26A552A300623523 /* DrawerViewController.swift */,
+				0483F89226A3014F00C7BF9A /* HomeViewController.swift */,
 				0432B69126A29DCE001A6D7F /* VVIP_storyboard */,
 				0432B6A826A29DD1001A6D7F /* VVIP_storyboardTests */,
 				0432B6B326A29DD1001A6D7F /* VVIP_storyboardUITests */,
 				0432B69026A29DCE001A6D7F /* Products */,
+				47BE1C8F9ACC9E571B838FE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 		0432B69126A29DCE001A6D7F /* VVIP_storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				040442EF26A7FDE300961F34 /* Extensions */,
 				0432B69226A29DCE001A6D7F /* AppDelegate.swift */,
 				0432B69426A29DCE001A6D7F /* SceneDelegate.swift */,
 				0432B69626A29DCE001A6D7F /* ViewController.swift */,
@@ -106,6 +150,7 @@
 				0432B69B26A29DD0001A6D7F /* Assets.xcassets */,
 				0432B69D26A29DD0001A6D7F /* LaunchScreen.storyboard */,
 				0432B6A026A29DD0001A6D7F /* Info.plist */,
+				040442F826A8007800961F34 /* Constants.swift */,
 			);
 			path = VVIP_storyboard;
 			sourceTree = "<group>";
@@ -128,6 +173,13 @@
 			path = VVIP_storyboardUITests;
 			sourceTree = "<group>";
 		};
+		47BE1C8F9ACC9E571B838FE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +196,11 @@
 			dependencies = (
 			);
 			name = VVIP_storyboard;
+			packageProductDependencies = (
+				0454705126A69DD500366730 /* SideMenu */,
+				048600B426AEE1C100F8DEBA /* StreamChat */,
+				048600B626AEE1C100F8DEBA /* StreamChatUI */,
+			);
 			productName = VVIP_storyboard;
 			productReference = 0432B68F26A29DCE001A6D7F /* VVIP_storyboard.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +272,10 @@
 				Base,
 			);
 			mainGroup = 0432B68626A29DCE001A6D7F;
+			packageReferences = (
+				0454705026A69DD500366730 /* XCRemoteSwiftPackageReference "SideMenu" */,
+				048600B326AEE1C100F8DEBA /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
 			productRefGroup = 0432B69026A29DCE001A6D7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +320,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0432B69726A29DCE001A6D7F /* ViewController.swift in Sources */,
+				0454705D26A6B4CF00366730 /* TableViewController.swift in Sources */,
 				0432B69326A29DCE001A6D7F /* AppDelegate.swift in Sources */,
+				044CD5C126A98486009E72F1 /* PlayerDetailViewController.swift in Sources */,
+				040442F126A7FE2500961F34 /* Extensions.swift in Sources */,
+				0467E45C26A552A300623523 /* DrawerViewController.swift in Sources */,
+				0454706A26A6FCEE00366730 /* AddUserViewController.swift in Sources */,
+				040442FE26A84A5500961F34 /* AlertController.swift in Sources */,
 				0432B69526A29DCE001A6D7F /* SceneDelegate.swift in Sources */,
+				0481F08026AEB6B8008053F2 /* ChatViewController.swift in Sources */,
+				0463519E26AAD46F009B1B5D /* SettingDialViewController.swift in Sources */,
+				0483F89326A3014F00C7BF9A /* HomeViewController.swift in Sources */,
+				040442F926A8007800961F34 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +658,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0454705026A69DD500366730 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jonkykong/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.0;
+			};
+		};
+		048600B326AEE1C100F8DEBA /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0454705126A69DD500366730 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0454705026A69DD500366730 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		048600B426AEE1C100F8DEBA /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048600B326AEE1C100F8DEBA /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		048600B626AEE1C100F8DEBA /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 048600B326AEE1C100F8DEBA /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0432B68726A29DCE001A6D7F /* Project object */;
 }
